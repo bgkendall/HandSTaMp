@@ -519,6 +519,21 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.3048,
+        "microvia_diameter": 0.381,
+        "microvia_drill": 0.254,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3048,
+        "tuning_profile": "",
+        "via_diameter": 0.6096,
+        "via_drill": 0.3556
+      },
+      {
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
@@ -528,7 +543,7 @@
         "microvia_drill": 0.254,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "tuning_profile": "",
@@ -546,7 +561,7 @@
         "microvia_drill": 0.127,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "tuning_profile": "",
@@ -567,11 +582,15 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "VBUS|VCC|GND|.3V3"
+        "pattern": "VBUS|VCC|.3V3"
       },
       {
         "netclass": "USB",
         "pattern": "USB.*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND|ISLAND"
       }
     ]
   },
