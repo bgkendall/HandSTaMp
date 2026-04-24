@@ -3537,7 +3537,7 @@
 				(pin input line
 					(at -6.35 -10.16 90)
 					(length 2.54)
-					(name "Col1"
+					(name "${PIN12}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3555,7 +3555,7 @@
 				(pin input line
 					(at -3.81 -10.16 90)
 					(length 2.54)
-					(name "${PIN13}"
+					(name "Col1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3645,7 +3645,7 @@
 				(pin input line
 					(at 13.97 -10.16 90)
 					(length 2.54)
-					(name "Col0"
+					(name "${PIN18}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3663,7 +3663,7 @@
 				(pin input line
 					(at 16.51 -10.16 90)
 					(length 2.54)
-					(name "${PIN19}"
+					(name "Col0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5768,30 +5768,6 @@
 			)
 		)
 	)
-	(global_label "PA0"
-		(shape input)
-		(at 200.66 149.86 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38b116f5-354f-46a0-8cb1-617c6e0c3d5b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 155.603 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "PB0"
 		(shape input)
 		(at 232.41 138.43 0)
@@ -5829,6 +5805,30 @@
 		(uuid "3a6a740d-6744-4fe7-b8e5-46d36da4c686")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.2029 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PC14"
+		(shape input)
+		(at 179.07 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3abe9b4b-d997-4056-85a7-3e9e4cefda97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.5068 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5986,7 +5986,7 @@
 	)
 	(global_label "C0"
 		(shape input)
-		(at 218.44 149.86 270)
+		(at 220.98 149.86 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5996,7 +5996,7 @@
 		)
 		(uuid "59649f85-1644-4492-bf5d-bf8871d82065")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 155.3247 90)
+			(at 220.98 155.3247 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6082,7 +6082,7 @@
 	)
 	(global_label "PA5"
 		(shape input)
-		(at 220.98 149.86 270)
+		(at 218.44 149.86 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6092,7 +6092,7 @@
 		)
 		(uuid "79865616-543b-413c-9845-d9255ab217b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.98 155.5087 90)
+			(at 218.44 155.5087 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6392,30 +6392,6 @@
 			)
 		)
 	)
-	(global_label "PA0"
-		(shape input)
-		(at 199.39 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8e07e11-d417-4153-9c95-c44c72353efa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.133 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "USB-"
 		(shape bidirectional)
 		(at 48.26 53.34 0)
@@ -6634,7 +6610,7 @@
 	)
 	(global_label "C1"
 		(shape input)
-		(at 198.12 149.86 270)
+		(at 200.66 149.86 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6644,7 +6620,7 @@
 		)
 		(uuid "dc418423-59b5-4f52-b51e-f4f3e949e404")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.12 155.3247 90)
+			(at 200.66 155.3247 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,6 +6704,30 @@
 			)
 		)
 	)
+	(global_label "PC14"
+		(shape input)
+		(at 198.12 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e650208f-58a8-40d5-a8dc-316c755151f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 156.4232 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PB7"
 		(shape input)
 		(at 193.04 149.86 270)
@@ -6741,30 +6741,6 @@
 		(uuid "ebfdeb48-af99-491e-8f9e-53b093c65748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 193.04 155.5733 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "C1"
-		(shape input)
-		(at 179.07 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0fc32fc-8e2a-41b7-9470-63a9777991a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5342 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6869,6 +6845,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 199.39 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9a706c9-0ac3-47f7-95ad-5bdfe246e4f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.9258 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -10814,7 +10814,7 @@
 				)
 			)
 		)
-		(property "PIN13" "A0"
+		(property "PIN12" "C14"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10869,7 +10869,7 @@
 				)
 			)
 		)
-		(property "PIN19" "A5"
+		(property "PIN18" "A5"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)

@@ -276,7 +276,7 @@
 			(pin input line
 				(at -6.35 -10.16 90)
 				(length 2.54)
-				(name "Col1"
+				(name "${PIN12}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -294,7 +294,7 @@
 			(pin input line
 				(at -3.81 -10.16 90)
 				(length 2.54)
-				(name "${PIN13}"
+				(name "Col1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -384,7 +384,7 @@
 			(pin input line
 				(at 13.97 -10.16 90)
 				(length 2.54)
-				(name "Col0"
+				(name "${PIN18}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -402,7 +402,7 @@
 			(pin input line
 				(at 16.51 -10.16 90)
 				(length 2.54)
-				(name "${PIN19}"
+				(name "Col0"
 					(effects
 						(font
 							(size 1.27 1.27)
