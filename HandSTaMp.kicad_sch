@@ -5770,7 +5770,7 @@
 	)
 	(global_label "PB0"
 		(shape input)
-		(at 232.41 138.43 0)
+		(at 232.41 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5780,7 +5780,7 @@
 		)
 		(uuid "3a66befe-5d54-4bf4-a465-8bd776a92f1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.3305 138.43 0)
+			(at 238.3305 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6154,7 +6154,7 @@
 	)
 	(global_label "PA7"
 		(shape input)
-		(at 232.41 140.97 0)
+		(at 232.41 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6164,7 +6164,7 @@
 		)
 		(uuid "83881266-5645-4cdb-a4db-90c10d19349d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.9099 140.97 0)
+			(at 237.9099 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11254,7 +11254,7 @@
 				)
 			)
 		)
-		(property "PIN21" "A7"
+		(property "PIN21" "B0"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11265,7 +11265,7 @@
 				)
 			)
 		)
-		(property "PIN22" "B0"
+		(property "PIN22" "A7"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
