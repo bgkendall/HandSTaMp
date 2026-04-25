@@ -614,7 +614,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "symbols.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -664,12 +664,156 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey",
+          "name": "DigiKey",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Label",
+          "name": "Label",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "PIN10",
+          "name": "PIN10",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN11",
+          "name": "PIN11",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN12",
+          "name": "PIN12",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN14",
+          "name": "PIN14",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN15",
+          "name": "PIN15",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN16",
+          "name": "PIN16",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN17",
+          "name": "PIN17",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN18",
+          "name": "PIN18",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN20",
+          "name": "PIN20",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN21",
+          "name": "PIN21",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN22",
+          "name": "PIN22",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN5",
+          "name": "PIN5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN6",
+          "name": "PIN6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN7",
+          "name": "PIN7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN8",
+          "name": "PIN8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN9",
+          "name": "PIN9",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
