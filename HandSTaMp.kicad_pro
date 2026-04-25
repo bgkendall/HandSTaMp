@@ -60,7 +60,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|105920000|41703000|72e8aa18-21aa-4ed6-9b7b-122bef3b6f3b|745cf4f4-c148-46d6-ac03-73f22e70c9ac",
+          "By design the USB port legs are very close to the edge."
+        ],
+        [
+          "copper_edge_clearance|97280000|41703000|72e8aa18-21aa-4ed6-9b7b-122bef3b6f3b|e0d78e83-70fc-4029-a6cf-bc0d0029fd01",
+          "By design the USB port legs are very close to the edge."
+        ],
+        [
+          "courtyards_overlap|116845000|56520000|804af1a4-f1f3-439b-af8c-ce0aee297868|a6058938-1d75-423c-b817-526ee9addf8c",
+          "The actual shape of MX switches should allow for access to the GPIO and VCC pins without interference with the switch body."
+        ],
+        [
+          "courtyards_overlap|85080000|55885000|41d56c72-bfc6-49f4-abaf-314fb9044cb2|a6058938-1d75-423c-b817-526ee9addf8c",
+          "The actual shape of MX switches should allow for access to the GND pin without interference with the switch body."
+        ],
+        [
+          "text_thickness|89916000|56800700|e7b09bf0-da4c-4727-b947-d6863eefdd64|00000000-0000-0000-0000-000000000000",
+          "I don’t know what KiCad’s problem is here!"
+        ]
+      ],
       "meta": {
         "version": 2
       },

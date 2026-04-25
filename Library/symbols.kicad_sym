@@ -93,7 +93,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 2.54 10.16 270)
 				(length 2.54)
 				(name "3.3V"
@@ -111,7 +111,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
@@ -129,7 +129,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -27.94 3.81 0)
 				(length 2.54)
 				(name "Row0"
@@ -147,7 +147,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -27.94 1.27 0)
 				(length 2.54)
 				(name "${PIN5}"
@@ -165,7 +165,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -27.94 -1.27 0)
 				(length 2.54)
 				(name "${PIN6}"
@@ -183,7 +183,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -27.94 -3.81 0)
 				(length 2.54)
 				(name "${PIN7}"
@@ -201,7 +201,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -16.51 -10.16 90)
 				(length 2.54)
 				(name "${PIN8}"
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -13.97 -10.16 90)
 				(length 2.54)
 				(name "${PIN9}"
@@ -237,7 +237,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -11.43 -10.16 90)
 				(length 2.54)
 				(name "${PIN10}"
@@ -255,7 +255,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -8.89 -10.16 90)
 				(length 2.54)
 				(name "${PIN11}"
@@ -273,7 +273,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -6.35 -10.16 90)
 				(length 2.54)
 				(name "${PIN12}"
@@ -291,7 +291,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -3.81 -10.16 90)
 				(length 2.54)
 				(name "Col1"
@@ -309,7 +309,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 3.81 -10.16 90)
 				(length 2.54)
 				(name "${PIN14}"
@@ -327,7 +327,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 6.35 -10.16 90)
 				(length 2.54)
 				(name "${PIN15}"
@@ -345,7 +345,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 8.89 -10.16 90)
 				(length 2.54)
 				(name "${PIN16}"
@@ -363,7 +363,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 11.43 -10.16 90)
 				(length 2.54)
 				(name "${PIN17}"
@@ -381,7 +381,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 13.97 -10.16 90)
 				(length 2.54)
 				(name "${PIN18}"
@@ -399,7 +399,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 16.51 -10.16 90)
 				(length 2.54)
 				(name "Col0"
@@ -417,7 +417,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 27.94 -5.08 180)
 				(length 2.54)
 				(name "${PIN20}"
@@ -435,7 +435,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 27.94 -2.54 180)
 				(length 2.54)
 				(name "${PIN21}"
@@ -453,7 +453,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 27.94 0 180)
 				(length 2.54)
 				(name "${PIN22}"
@@ -471,7 +471,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 27.94 2.54 180)
 				(length 2.54)
 				(name "${PIN23}"
