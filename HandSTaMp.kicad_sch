@@ -4976,8 +4976,6 @@
 		(effects
 			(font
 				(size 5 5)
-				(thickness 2)
-				(bold yes)
 			)
 			(justify left bottom)
 		)
