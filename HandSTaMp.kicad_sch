@@ -724,6 +724,135 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -4994,7 +5123,7 @@
 	)
 	(text_box "Optional RGB pull-up.\nRemove/do not place if using pin for matrix, etc."
 		(exclude_from_sim no)
-		(at 208.28 81.28 0)
+		(at 208.28 83.82 0)
 		(size 17.78 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5011,6 +5140,26 @@
 			(justify bottom)
 		)
 		(uuid "6bca83fd-7d15-4ccd-abc5-f340aa5f434e")
+	)
+	(text_box "Optional parasitic reset prevention capacitor.\nRemove/do not place if using pin for matrix, etc."
+		(exclude_from_sim no)
+		(at 208.28 57.15 0)
+		(size 17.78 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify bottom)
+		)
+		(uuid "fccd6a00-87b7-49e3-b40f-548343c2159e")
 	)
 	(junction
 		(at 111.76 142.24)
@@ -5298,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 83.82) (xy 220.98 83.82)
+			(xy 228.6 86.36) (xy 220.98 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5398,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 83.82) (xy 213.36 83.82)
+			(xy 205.74 86.36) (xy 213.36 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5604,14 +5753,14 @@
 				(type solid)
 			)
 		)
-		(column_widths 6.35 49.53)
-		(row_heights 6.35 7.62 12.7 5.08)
+		(column_widths 6.35 87.63)
+		(row_heights 6.35 3.81 6.35 3.81 10.16)
 		(uuid "45666aa6-74dd-4711-bec4-15ec607cad2d")
 		(cells
 			(table_cell "Notes on Pins"
 				(exclude_from_sim no)
-				(at 15.24 163.83 0)
-				(size 55.88 6.35)
+				(at 78.74 165.1 0)
+				(size 93.98 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 2 1)
 				(fill
@@ -5627,8 +5776,8 @@
 			)
 			(table_cell "rgb(231, 231, 231)"
 				(exclude_from_sim no)
-				(at 21.59 163.83 0)
-				(size 49.53 6.35)
+				(at 85.09 165.1 0)
+				(size 87.63 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 0 0)
 				(fill
@@ -5643,8 +5792,8 @@
 			)
 			(table_cell "RGB"
 				(exclude_from_sim no)
-				(at 15.24 170.18 0)
-				(size 6.35 7.62)
+				(at 78.74 171.45 0)
+				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5659,8 +5808,8 @@
 			)
 			(table_cell "The “RGB” pin, PB1, has the following timers available to support PWM: TIM14_CH1, TIM3_CH4"
 				(exclude_from_sim no)
-				(at 21.59 170.18 0)
-				(size 49.53 7.62)
+				(at 85.09 171.45 0)
+				(size 87.63 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5676,8 +5825,8 @@
 			)
 			(table_cell "PC×"
 				(exclude_from_sim no)
-				(at 15.24 177.8 0)
-				(size 6.35 12.7)
+				(at 78.74 175.26 0)
+				(size 6.35 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5692,8 +5841,8 @@
 			)
 			(table_cell "Other STM32 models have limitations on PC13, PC14 and PC15 because these are supplied through the VBAT power switch. The C071 chips do not have a VBAT power switch and so do not have this limitation."
 				(exclude_from_sim no)
-				(at 21.59 177.8 0)
-				(size 49.53 12.7)
+				(at 85.09 175.26 0)
+				(size 87.63 6.35)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5709,8 +5858,8 @@
 			)
 			(table_cell "SWD"
 				(exclude_from_sim no)
-				(at 15.24 190.5 0)
-				(size 6.35 5.08)
+				(at 78.74 181.61 0)
+				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5726,8 +5875,25 @@
 			)
 			(table_cell "It may be possible to use this pin, PA14, as additional I/O."
 				(exclude_from_sim no)
-				(at 21.59 190.5 0)
-				(size 49.53 5.08)
+				(at 85.09 181.61 0)
+				(size 87.63 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+				(uuid "325a3202-427f-479f-8c60-a72f35074058")
+			)
+			(table_cell "PF2"
+				(exclude_from_sim no)
+				(at 78.74 185.42 0)
+				(size 6.35 10.16)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -5738,7 +5904,24 @@
 						(size 1.27 1.27)
 					)
 				)
-				(uuid "325a3202-427f-479f-8c60-a72f35074058")
+				(uuid "85ffc9a8-aa97-413b-8322-79e3d793ed8a")
+			)
+			(table_cell "PF2-NRST can be be used as additional I/O by setting the NRST_MODE option bits appropriately.\nNote that even in I/O mode the NRST pin must be able to be pulled high on power-on, otherwise the MCU will not start."
+				(exclude_from_sim no)
+				(at 85.09 185.42 0)
+				(size 87.63 10.16)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+				(uuid "32703c8c-ba1c-46d9-8618-af6e8ed41ee9")
 			)
 		)
 	)
@@ -6200,7 +6383,7 @@
 	)
 	(global_label "RGB"
 		(shape input)
-		(at 205.74 83.82 180)
+		(at 205.74 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6210,7 +6393,7 @@
 		)
 		(uuid "5338ccf9-fb1f-4377-b12e-9d69b80a2fc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.6855 83.82 0)
+			(at 199.6855 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6392,7 +6575,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 165.1 137.16 180)
+		(at 165.1 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6402,7 +6585,7 @@
 		)
 		(uuid "82da2732-eb5a-4753-9cbc-f6a5d18db962")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.8771 137.16 0)
+			(at 155.8771 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6475,6 +6658,30 @@
 		(uuid "84bcf542-a7d9-43ff-996c-a7a3311fc710")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.7773 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "NRST"
+		(shape bidirectional)
+		(at 165.1 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d4e050f-6784-447d-8a9c-9dbfcf498686")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.026 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +7175,7 @@
 	)
 	(global_label "BOOT0{slash}SWCLK"
 		(shape output)
-		(at 165.1 139.7 180)
+		(at 165.1 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6978,7 +7185,7 @@
 		)
 		(uuid "e3cac13a-c5c8-457c-82cf-7bbdc123dd27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.6047 139.7 0)
+			(at 150.6047 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7321,7 +7528,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 228.6 83.82 0)
+		(at 228.6 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7332,7 +7539,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b18bbd5-7854-4d7d-a8c2-ee32816a761c")
 		(property "Reference" "#PWR04"
-			(at 228.6 87.63 0)
+			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7343,7 +7550,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 228.6 78.74 0)
+			(at 228.6 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7353,7 +7560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 83.82 0)
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7364,7 +7571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 83.82 0)
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7375,7 +7582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 228.6 83.82 0)
+			(at 228.6 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +8487,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 170.18 139.7 0)
+		(at 170.18 132.08 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8291,7 +8498,7 @@
 		(dnp no)
 		(uuid "3880e6c1-7efa-4bc0-8dd7-c267cf245614")
 		(property "Reference" "J2"
-			(at 172.72 140.97 0)
+			(at 172.72 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8302,7 +8509,7 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 172.72 138.43 0)
+			(at 172.72 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8313,7 +8520,7 @@
 			)
 		)
 		(property "Footprint" "Project Library:SWD+GroundingPoint"
-			(at 170.18 139.7 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8324,7 +8531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 139.7 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8335,7 +8542,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 170.18 139.7 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8346,7 +8553,7 @@
 			)
 		)
 		(property "MPN" "-"
-			(at 170.18 139.7 0)
+			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9799,10 +10006,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78d356c5-f535-47a8-aa08-7ba472ac12b7")
 		(property "Reference" "C5"
-			(at 217.17 58.42 90)
+			(at 217.17 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9812,7 +10018,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 217.17 60.96 90)
+			(at 217.17 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10174,7 +10380,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 83.82 90)
+		(at 217.17 86.36 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10185,7 +10391,7 @@
 		(dnp no)
 		(uuid "85011ac8-a257-4ac2-a5c6-a3593e529ef0")
 		(property "Reference" "R3"
-			(at 217.17 88.646 90)
+			(at 217.17 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10195,7 +10401,7 @@
 			)
 		)
 		(property "Value" "5k1Ω"
-			(at 217.17 86.106 90)
+			(at 217.17 88.646 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10205,7 +10411,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 217.17 82.042 90)
+			(at 217.17 84.582 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 83.82 0)
+			(at 217.17 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10227,7 +10433,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 83.82 0)
+			(at 217.17 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10238,7 +10444,7 @@
 			)
 		)
 		(property "LCSC" "C23186"
-			(at 217.17 83.82 90)
+			(at 217.17 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10249,7 +10455,7 @@
 			)
 		)
 		(property "DigiKey" "311-5.10KHR"
-			(at 217.17 83.82 90)
+			(at 217.17 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10260,7 +10466,7 @@
 			)
 		)
 		(property "Label" "P"
-			(at 217.17 83.82 90)
+			(at 217.17 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10271,7 +10477,7 @@
 			)
 		)
 		(property "MPN" "0603WAF5101T5E/RC0603FR-075K1L"
-			(at 217.17 83.82 90)
+			(at 217.17 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,6 +10666,84 @@
 			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 170.18 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8be145f9-cd0d-41dc-9e9c-f02e58dbc151")
+		(property "Reference" "J4"
+			(at 172.72 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "F2"
+			(at 172.72 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 170.18 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 170.18 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9b91149-74b1-4454-94af-34269fc1bdb2")
+		)
+		(instances
+			(project "HandSTaMp"
+				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -11244,7 +11528,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth_Protective")
-		(at 165.1 142.24 0)
+		(at 165.1 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11255,7 +11539,7 @@
 		(fields_autoplaced yes)
 		(uuid "cda07699-e544-4be6-8e6a-82f45ec85d01")
 		(property "Reference" "#PWR032"
-			(at 165.1 152.4 0)
+			(at 165.1 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11266,7 +11550,7 @@
 			)
 		)
 		(property "Value" "ISLAND"
-			(at 165.1 151.13 0)
+			(at 165.1 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11276,7 +11560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 144.78 0)
+			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11287,7 +11571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 144.78 0)
+			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11298,7 +11582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 165.1 142.24 0)
+			(at 165.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
