@@ -5806,7 +5806,7 @@
 				)
 				(uuid "94d30c0d-c5b7-4d00-8471-35fce79fe585")
 			)
-			(table_cell "The “RGB” pin, PB1, has the following timers available to support PWM: TIM14_CH1, TIM3_CH4"
+			(table_cell "The “RGB” pin, PB1, has the following timer available to support PWM with DMA: TIM3_CH4"
 				(exclude_from_sim no)
 				(at 85.09 171.45 0)
 				(size 87.63 3.81)
@@ -7376,7 +7376,7 @@
 			(justify right bottom)
 		)
 		(uuid "ee4a82de-0037-4689-bbfa-31322b679209")
-		(property "Net Class" "Power"
+		(property "Netclass" "Power"
 			(at 101.6 40.005 0)
 			(show_name no)
 			(do_not_autoplace no)
