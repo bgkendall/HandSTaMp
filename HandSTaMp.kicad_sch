@@ -6416,7 +6416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0203c056-c61a-4e83-92bc-932c0e6281f3")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 149.86 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,6 +6504,17 @@
 				)
 			)
 		)
+		(property "Label" "µ"
+			(at 146.05 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ea51bdb-cc18-4cd0-8c0c-79cae80112f6")
 		)
@@ -6513,7 +6524,7 @@
 		(instances
 			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7905,6 +7916,17 @@
 				)
 			)
 		)
+		(property "Label" "F"
+			(at 99.06 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0b0483b-02a4-410e-9e49-558749493b74")
 		)
@@ -8147,7 +8169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e8ec27-6c6f-4e8a-84d9-ef2679ea4a28")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 162.56 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8235,6 +8257,17 @@
 				)
 			)
 		)
+		(property "Label" "n"
+			(at 158.75 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "76cb6097-0a89-4e66-b9d3-4504ce3370e7")
 		)
@@ -8244,7 +8277,7 @@
 		(instances
 			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8585,6 +8618,17 @@
 			)
 		)
 		(property "MPN" "0603WAF3300T5E/RC0603FR-07330RL"
+			(at 231.14 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "3"
 			(at 231.14 40.64 90)
 			(hide yes)
 			(show_name no)
