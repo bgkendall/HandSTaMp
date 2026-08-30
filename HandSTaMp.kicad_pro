@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2032,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_clearance": 0.1524,
+          "min_island_area": 9.99999999996,
+          "min_thickness": 0.1524,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.1524,
+          "thermal_relief_spoke_width": 0.1524
         }
       },
       "diff_pair_dimensions": [
@@ -902,7 +902,7 @@
         "uuid": "34400e51-cf83-464a-b3ec-e9a28a972a27"
       }
     ],
-    "used_designators": "J4",
+    "used_designators": "C3-4,U4,#PWR5-6,#PWR11,#PWR14,#PWR19,J4",
     "variants": []
   },
   "sheets": [
