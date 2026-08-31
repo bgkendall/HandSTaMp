@@ -5082,7 +5082,7 @@
 			)
 		)
 	)
-	(global_label "PB1"
+	(global_label "PB5"
 		(shape input)
 		(at 154.94 73.66 180)
 		(fields_autoplaced yes)
@@ -5094,7 +5094,7 @@
 		)
 		(uuid "2efc0f3e-61bc-4c81-88c2-e2cd0d1c7946")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.2391 73.66 0)
+			(at 149.1138 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5754,7 +5754,7 @@
 			)
 		)
 	)
-	(global_label "PB1"
+	(global_label "PB5"
 		(shape input)
 		(at 259.08 142.24 0)
 		(fields_autoplaced yes)
@@ -5766,7 +5766,7 @@
 		)
 		(uuid "ad2d0a59-9727-4349-8f42-972a32a4d9ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.7809 142.24 0)
+			(at 264.9062 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9412,7 +9412,7 @@
 				)
 			)
 		)
-		(property "PIN21" "B1"
+		(property "PIN21" "B5"
 			(at 231.14 139.7 0)
 			(hide yes)
 			(show_name no)
