@@ -20,7 +20,7 @@
 ##### Notes
 
  1. Three-pin “plate-mount” switches can be used as-is. To use five-pin “PCB-mount” switches,
-    the two extra plastic alignment “pins” must be removed.
+    one of the plastic alignment “pins” must be removed from opposite sides of each switch.
  2. U1 is positioned in the ~4×4mm area in the lower centre of the PCB.
 
 ## Debug Interface

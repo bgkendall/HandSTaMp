@@ -6730,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_MX_1u_PlateMount"
+		(property "Footprint" "Project Library:SW_MX_1u_1pinR"
 			(at 116.84 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8478,7 +8478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:SW_MX_1u_PlateMount"
+		(property "Footprint" "Project Library:SW_MX_1u_1pinL"
 			(at 91.44 129.54 0)
 			(hide yes)
 			(show_name no)
