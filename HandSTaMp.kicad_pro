@@ -92,10 +92,6 @@
         [
           "courtyards_overlap|85080000|55885000|41d56c72-bfc6-49f4-abaf-314fb9044cb2|a6058938-1d75-423c-b817-526ee9addf8c",
           "The actual shape of MX switches should allow for access to the GND pin without interference with the switch body."
-        ],
-        [
-          "text_thickness|89916000|56800700|e7b09bf0-da4c-4727-b947-d6863eefdd64|00000000-0000-0000-0000-000000000000",
-          "I don’t know what KiCad’s problem is here!"
         ]
       ],
       "meta": {
