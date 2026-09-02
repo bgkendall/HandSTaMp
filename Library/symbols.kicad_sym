@@ -112,7 +112,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 3.81 0)
+				(at -27.94 5.08 0)
 				(length 2.54)
 				(name "Row0"
 					(effects
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 1.27 0)
+				(at -27.94 2.54 0)
 				(length 2.54)
 				(name "${PIN5}"
 					(effects
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 -1.27 0)
+				(at -27.94 0 0)
 				(length 2.54)
 				(name "${PIN6}"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 -3.81 0)
+				(at -27.94 -2.54 0)
 				(length 2.54)
 				(name "${PIN7}"
 					(effects
@@ -184,7 +184,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -10.16 90)
+				(at -27.94 -5.08 0)
 				(length 2.54)
 				(name "${PIN8}"
 					(effects
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -13.97 -10.16 90)
+				(at -16.51 -10.16 90)
 				(length 2.54)
 				(name "${PIN9}"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -10.16 90)
+				(at -13.97 -10.16 90)
 				(length 2.54)
 				(name "${PIN10}"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -8.89 -10.16 90)
+				(at -11.43 -10.16 90)
 				(length 2.54)
 				(name "${PIN11}"
 					(effects
@@ -256,7 +256,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 -10.16 90)
+				(at -8.89 -10.16 90)
 				(length 2.54)
 				(name "${PIN12}"
 					(effects
@@ -274,9 +274,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 -10.16 90)
+				(at -6.35 -10.16 90)
 				(length 2.54)
-				(name "Col1"
+				(name "${PIN13}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -292,9 +292,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -10.16 90)
+				(at -3.81 -10.16 90)
 				(length 2.54)
-				(name "${PIN14}"
+				(name "Col1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 -10.16 90)
+				(at 3.81 -10.16 90)
 				(length 2.54)
 				(name "${PIN15}"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -10.16 90)
+				(at 6.35 -10.16 90)
 				(length 2.54)
 				(name "${PIN16}"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -10.16 90)
+				(at 8.89 -10.16 90)
 				(length 2.54)
 				(name "${PIN17}"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 13.97 -10.16 90)
+				(at 11.43 -10.16 90)
 				(length 2.54)
 				(name "${PIN18}"
 					(effects
@@ -382,9 +382,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 16.51 -10.16 90)
+				(at 13.97 -10.16 90)
 				(length 2.54)
-				(name "Col0"
+				(name "${PIN19}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -400,9 +400,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -5.08 180)
+				(at 16.51 -10.16 90)
 				(length 2.54)
-				(name "${PIN20}"
+				(name "Col0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -418,7 +418,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -2.54 180)
+				(at 27.94 -5.08 180)
 				(length 2.54)
 				(name "${PIN21}"
 					(effects
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 0 180)
+				(at 27.94 -2.54 180)
 				(length 2.54)
 				(name "${PIN22}"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 2.54 180)
+				(at 27.94 0 180)
 				(length 2.54)
 				(name "${PIN23}"
 					(effects
@@ -472,7 +472,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 5.08 180)
+				(at 27.94 2.54 180)
 				(length 2.54)
 				(name "${PIN24}"
 					(effects
